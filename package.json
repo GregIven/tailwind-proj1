@@ -1,0 +1,18 @@
+{
+  "name": "tailwind-proj1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run index.js",
+    "build:css": "tailwind build src/style.css -o dist/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.2.5",
+    "express": "^4.17.1",
+    "tailwindcss": "^2.1.1"
+  }
+}
